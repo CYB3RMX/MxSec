@@ -60,6 +60,5 @@ goodbye()
   echo -en "          ■ \n\n"
   echo -en $lc1"["$lr1"+"$lc1"]"$w1" PRESS ANY KEY..\n"
   read any_key
-  python mxsec.py
 }
 goodbye
