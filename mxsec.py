@@ -43,6 +43,7 @@ class frame():
             print("help => SHOW THIS SCREEN")
             print("hreq => GET HTTP HEADERS")
             print("ps => PORT SCANNER")
+            print("uh => USER HUNTER")
             print("up => UPDATE MxSec")
             print("quit => EXIT PROGRAM")
             frame.console()
@@ -78,6 +79,13 @@ class frame():
             frame.console()
         except KeyboardInterrupt:
             print("[*] GOODBYE...")
+     def uh():
+        try:
+            os.system('clear')
+            os.system('bash userHunter.sh')
+            frame.console()
+        except KeyboardInterrupt:
+            print("[*] GOODBYE...")
      def up():
         try:
             os.system('clear')
@@ -109,6 +117,8 @@ class frame():
               frame.ps()
             elif com=='up':
               frame.up()
+            elif com=='uh':
+              frame.uh()
             elif com=='quit':
               print("[*] GOODBYE...")
             else:
