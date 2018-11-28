@@ -128,7 +128,7 @@ class frame():
             print("[*] GOODBYE...")
 #-----------------------------------#
 os.system('clear')
-print("\u001b[92m ")
+print("\u001b[92m\a ")
 print(screen)
 print("\u001b[0m ")
 frame.console()
