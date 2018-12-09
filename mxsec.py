@@ -4,7 +4,7 @@ import os
 print("\u001b[91m ")
 print("[!] ALERT THIS PROGRAM NEEDS SOME RESOURCES")
 inst=str(input("DO YOU WANNA INSTALL [Y/N] ?: "))
-if inst=='Y' and inst=='y':
+if inst=='Y' or inst=='y':
    os.system('apt-get install nmap')
    os.system('apt-get install wafw00f')
    os.system('pacman -S nmap && pacman -S wafw00f')
