@@ -7,8 +7,11 @@ inst=str(input("DO YOU WANNA INSTALL [Y/N] ?: "))
 if inst=='Y' or inst=='y':
    os.system('apt-get install nmap')
    os.system('apt-get install wafw00f')
+   os.system('apt-get install curl')
    os.system('pacman -S nmap && pacman -S wafw00f')
+   os.system('pacman -S curl')
    os.system('yum install nmap && yum install wafw00f')
+   os.system('yum install curl')
 else:
    os.system('clear')
 screen='''
